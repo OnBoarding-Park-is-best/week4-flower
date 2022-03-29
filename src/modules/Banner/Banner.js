@@ -171,7 +171,7 @@ export default function Banner({ $target }) {
   };
 
   const checkBoundary = (distance) => {
-    const boundary = slideWidth / 2;
+    const boundary = slideWidth / 3;
     if (distance < -boundary) {
       moveSlide(currentIdx + 1);
       setTrackInitialPosition();
