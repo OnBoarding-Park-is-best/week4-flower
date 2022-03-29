@@ -157,6 +157,7 @@ export default function Banner({ $target }) {
       cloneSlides.forEach((cloneSlide) =>
         cloneSlide.classList.remove(styles.hidden),
       );
+      currentIdx = 0;
       updateWidth();
       return;
     }
